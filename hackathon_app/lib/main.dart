@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'home.dart';
+import 'art.dart';
+import 'travel.dart';
 
 void main() {
   runApp(new MaterialApp(
@@ -14,12 +17,12 @@ class NavBar extends StatefulWidget {
 class _NavBarState extends State<NavBar> {
   int _currentIndex = 0;
   final tabs = [
-    Center(child: Text('Home')),
-    Center(child: Text('Art')),
+    ImageSlider(),
+    Aipans(),
     Center(
       child: Text('Literature'),
     ),
-    Center(child: Text('Maps')),
+    Travel(),
   ];
   @override
   Widget build(BuildContext context) {
