@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'widgets/destination.dart';
 
 class Travel extends StatefulWidget {
   @override
@@ -7,7 +8,6 @@ class Travel extends StatefulWidget {
 }
 
 class _TravelState extends State<Travel> {
-  TextEditingController _textEditingController = new TextEditingController();
   int _selectedIndex = 0;
   List<IconData> _icons = [
     FontAwesomeIcons.plane,
@@ -74,24 +74,25 @@ class _TravelState extends State<Travel> {
                       height: 25.0,
                     ),
                     Container(
-                        width: MediaQuery.of(context).size.width,
-                        child: Row(
-                          children: <Widget>[
-                            Expanded(
-                                child: TextField(
-                              controller: _textEditingController,
-                              decoration: InputDecoration(
-                                  hintText: "Enter the place",
-                                  hintStyle: TextStyle(fontSize: 18)),
-                            )),
-                            SizedBox(
-                              width: 14.0,
-                            ),
-                            Container(
-                              child: Icon(Icons.search),
-                            )
-                          ],
-                        ))
+                      width: MediaQuery.of(context).size.width,
+                      child: Row(
+                        children: <Widget>[
+                          Expanded(
+                              child: TextField(
+                            decoration: InputDecoration(
+                                hintText: "Enter the place",
+                                hintStyle: TextStyle(fontSize: 18)),
+                          )),
+                          SizedBox(
+                            width: 14.0,
+                          ),
+                          Container(
+                            child: Icon(Icons.search),
+                          ),
+                        ],
+                      ),
+                    ),
+                    DestinationCarousel(),
                   ],
                 ),
               )
