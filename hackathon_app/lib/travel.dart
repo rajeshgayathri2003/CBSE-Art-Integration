@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:hackathon_app/widgets/hotels.dart';
 import 'widgets/destination.dart';
 
 class Travel extends StatefulWidget {
@@ -93,6 +94,10 @@ class _TravelState extends State<Travel> {
                       ),
                     ),
                     DestinationCarousel(),
+                    SizedBox(
+                      width: 14.0,
+                    ),
+                    HotelCarousel()
                   ],
                 ),
               )
