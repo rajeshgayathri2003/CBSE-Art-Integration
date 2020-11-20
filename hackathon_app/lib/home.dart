@@ -30,8 +30,17 @@ class _ImageSliderState extends State<ImageSlider> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[100],
-      body: Column(
+        //backgroundColor: Colors.blue[100],
+        body: Stack(children: <Widget>[
+      Opacity(
+          opacity: 0.3,
+          child: Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage('assets/uk2.jpg'), fit: BoxFit.fill),
+            ),
+          )),
+      Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
@@ -81,7 +90,7 @@ class _ImageSliderState extends State<ImageSlider> {
           )
         ],
       ),
-    );
+    ]));
   }
 }
 

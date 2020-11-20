@@ -42,9 +42,9 @@ class DestinationCarousel extends StatelessWidget {
                     alignment: Alignment.topCenter,
                     children: <Widget>[
                       Positioned(
-                          bottom: 15.0,
+                          bottom: 0.1,
                           child: Container(
-                            height: 120.0,
+                            height: 150.0,
                             width: 200.0,
                             decoration: BoxDecoration(
                               color: Colors.white,
@@ -56,12 +56,6 @@ class DestinationCarousel extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.end,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
-                                    Text(
-                                        '${destination.activities.length} activities',
-                                        style: TextStyle(
-                                            fontSize: 22.0,
-                                            fontWeight: FontWeight.w600,
-                                            letterSpacing: 1.2)),
                                     Text(
                                       destination.description,
                                       style: TextStyle(color: Colors.grey),
@@ -84,7 +78,7 @@ class DestinationCarousel extends StatelessWidget {
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(20.0),
                                 child: Image(
-                                  height: 100.0,
+                                  height: 200.0,
                                   width: 180.0,
                                   image: AssetImage(destination.imageUrl),
                                   fit: BoxFit.cover,

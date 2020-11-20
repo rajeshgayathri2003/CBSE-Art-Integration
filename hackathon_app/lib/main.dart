@@ -30,7 +30,7 @@ class _NavBarState extends State<NavBar> {
       appBar: AppBar(
         title: Center(
           child: Text(
-            'Hilly Days',
+            'Welcome to Uttarakhand',
             style: TextStyle(color: Colors.white, fontSize: 28.0),
           ),
         ),

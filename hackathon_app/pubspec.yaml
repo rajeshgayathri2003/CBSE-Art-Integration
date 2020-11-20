@@ -57,6 +57,13 @@ flutter:
     - assets/uk4.jpg
     - assets/aipan1.png
     - assets/aipan2.jpg
+    - assets/almora.jpg
+    - assets/haridwar.jpg
+    - assets/jimcorbett.jpg
+    - assets/mussoorie.jpg
+    - assets/nainital.jpg
+    - assets/rishikesh.jpg
+    - assets/valleyofflowers.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
