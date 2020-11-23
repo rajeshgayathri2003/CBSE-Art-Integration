@@ -45,46 +45,49 @@ List<Activity> activities = [
 
 List<Destination> destinations = [
   Destination(
-    imageUrl: 'assets/uk3.jpg',
-    city: 'Venice',
-    country: 'Italy',
-    description:
-        'Visit Venice for an amazing and unforgettable adventure. Visit Paris for an amazing and unforgettable adventure',
+    imageUrl: 'assets/almora.jpg',
+    city: 'Almora',
+    country: 'Almora',
+    description: 'Fairy tale hamlets, picturesque views and divine temples',
     activities: activities,
   ),
   Destination(
-    imageUrl: 'assets/uk4.jpg',
-    city: 'Paris',
-    country: 'France',
-    description: 'Visit Paris for an amazing and unforgettable adventure.',
+    imageUrl: 'assets/valleyofflowers.jpg',
+    city: 'Valley of\n Flowers',
+    country: 'Nanda Devi',
+    description:
+        'Visit this UNESCO World Heritage Site and experience the best of nature ',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/jimcorbett.jpg',
     city: 'Jim Corbett \nNational Park',
     country: 'Nainital',
-    description: 'Visit New Delhi for an amazing and unforgettable adventure.',
+    description:
+        'Visit the Jim Corbett National and witness wildlife in action.',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/haridwar.jpg',
     city: 'Haridwar',
     country: 'Haridwar',
-    description: 'Visit Sao Paulo for an amazing and unforgettable adventure.',
+    description:
+        'The epitome of Indian culture. Witness the Kumbh Mela in action!',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/rishikesh.jpg',
     city: 'Rishikesh',
     country: 'Rishikesh',
-    description: 'Visit New York for an amazing and unforgettable adventure.',
+    description:
+        'Experience tranquility and divinity by the banks of river Ganges',
     activities: activities,
   ),
   Destination(
     imageUrl: 'assets/nainital.jpg',
     city: 'Nainital',
-    country: 'Naiital',
-    description: 'Visit New York for an amazing and unforgettable adventure.',
+    country: 'Nainital',
+    description: 'Visit the beautiful hill station of India',
     activities: activities,
   ),
 ];

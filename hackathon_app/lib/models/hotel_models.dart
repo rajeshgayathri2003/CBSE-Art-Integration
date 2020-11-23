@@ -14,21 +14,21 @@ class Hotel {
 
 final List<Hotel> hotels = [
   Hotel(
-    imageUrl: 'assets/uk1.jpg',
-    name: 'Hotel 0',
-    address: '404 Great St',
-    price: 175,
+    imageUrl: 'assets/tour1.jpg',
+    name: 'Rishikesh-Kedarnath-Badrinath',
+    address: 'Departure from Rishikesh',
+    price: 26640,
   ),
   Hotel(
-    imageUrl: 'assets/uk2.jpg',
-    name: 'Hotel 1',
-    address: '404 Great St',
-    price: 300,
+    imageUrl: 'assets/gangotri.jpg',
+    name: 'Rishikesh-Yamunotri-Gangotri',
+    address: 'Departure from Rishikesh',
+    price: 16700,
   ),
   Hotel(
-    imageUrl: 'assets/uk3.jpg',
-    name: 'Hotel 2',
-    address: '404 Great St',
-    price: 240,
+    imageUrl: 'assets/tour3.jpg',
+    name: 'Haridwar-Kedarnath-Badrinath',
+    address: 'Departure from Haridwar',
+    price: 25800,
   ),
 ];

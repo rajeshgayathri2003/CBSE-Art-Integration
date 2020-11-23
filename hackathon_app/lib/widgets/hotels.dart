@@ -13,7 +13,7 @@ class HotelCarousel extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    'Exclusive Hotels',
+                    'Tourist Packages',
                     style: TextStyle(
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,
@@ -44,7 +44,7 @@ class HotelCarousel extends StatelessWidget {
                       Positioned(
                           bottom: 15.0,
                           child: Container(
-                            height: 120.0,
+                            height: 200.0,
                             width: 240.0,
                             decoration: BoxDecoration(
                               color: Colors.white,
@@ -61,15 +61,16 @@ class HotelCarousel extends StatelessWidget {
                                             fontSize: 22.0,
                                             fontWeight: FontWeight.w600,
                                             letterSpacing: 1.2)),
-                                    Text(
+                                    SingleChildScrollView(
+                                        child: Text(
                                       hotel.address,
                                       style: TextStyle(color: Colors.grey),
-                                    ),
+                                    )),
                                     SizedBox(
                                       height: 2.0,
                                     ),
                                     Text(
-                                      '\$${hotel.price} /night',
+                                      '\Rs.${hotel.price}',
                                       style: TextStyle(
                                           fontSize: 18.0,
                                           fontWeight: FontWeight.w600),
