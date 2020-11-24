@@ -66,8 +66,14 @@ flutter:
     - assets/valleyofflowers.jpg
     - assets/tour1.jpg
     - assets/tour3.jpg
+    - assets/tour4.jpg
     - assets/gangotri.jpg
     - assets/aipan3.png
+    - assets/shiva.png
+    - assets/festival1.jpg
+    - assets/festival2.jpg
+    - assets/manasa.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

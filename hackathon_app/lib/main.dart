@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 import 'art.dart';
 import 'travel.dart';
+import 'festivals.dart';
 
 void main() {
   runApp(new MaterialApp(
@@ -19,9 +20,7 @@ class _NavBarState extends State<NavBar> {
   final tabs = [
     ImageSlider(),
     Aipans(),
-    Center(
-      child: Text('Literature'),
-    ),
+    Festival(),
     Travel(),
   ];
   @override

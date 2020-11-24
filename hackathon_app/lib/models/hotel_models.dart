@@ -31,4 +31,16 @@ final List<Hotel> hotels = [
     address: 'Departure from Haridwar',
     price: 25800,
   ),
+  Hotel(
+    imageUrl: 'assets/tour4.jpg',
+    name: 'Jim Corbett-Nanda Devi-Valley of Flowers',
+    address: 'Departure from Nainital',
+    price: 27800,
+  ),
+  Hotel(
+    imageUrl: 'assets/manasa.jpg',
+    name: 'Manasa Devi-Chandi Devi-Gangadhwara',
+    address: 'Departure from Haridwar',
+    price: 28900,
+  ),
 ];
