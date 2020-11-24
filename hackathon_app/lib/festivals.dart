@@ -10,7 +10,7 @@ class Festival extends StatelessWidget {
             children: <Widget>[
               Center(
                   child: Text(
-                'Festivals',
+                'Religion & Temples',
                 style: TextStyle(
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold,
@@ -54,46 +54,54 @@ class Festival extends StatelessWidget {
                     height: 50.0,
                     width: 50.0,
                   ),
-                  Text(
-                    'Derived from the word ‘Arpan’ meaning dedication, the traditional Aipan stands as a symbol of devotion and auspiciousness. The Aipan is a ritualistic folk art that is native to the Kumaon region of Uttarakhand. It is drawn to commemorate festive occasions as well as more somber occasions like death of a person.',
-                    style: TextStyle(
-                        color: Colors.indigoAccent,
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.bold),
-                  ),
+                  Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        'Uttarakhand is famous for its temples dedicated to lord Shiva. The Katarmal temple in Almora is a Sun temple. This temple was built during the reign of the second Katyuri King Katarmal Dev. Besides being a sun temple, this temple also houses idols of the Hindu deities Shiva and Vishnu.',
+                        style: TextStyle(
+                            color: Colors.indigoAccent,
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.bold),
+                      )),
                   SizedBox(
                     height: 50.0,
                     width: 50.0,
                   ),
-                  Text(
-                    'Drawn using red mud or ‘geru’ and the designs are made using rice flour which is white in colour. The creation of an Aipan begins and ends with a dot; the dot symbolizing the center of the universe. All lines and patterns emerge from this single dot and this represents the shifting form of the universe.',
-                    style: TextStyle(
-                        color: Colors.indigoAccent,
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.bold),
-                  ),
+                  Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        'At the Bajinath Temple, Shiva is worshipped as Vaidyanatha, the Lord of the Physicians. This temple also depicts the slaying of demon Mahishasura by Goddess Kali and was erected by King Laxmichand around 1450 CE. Pilgrims also visit the Patal Bhuwaneshwar temple seeking the road that will lead them to Mount Kailash, the heavenly abode of Lord Shiva. Devotees also worship the Lord as Bineshwar at the Binsar Mahadev Temple. ',
+                        style: TextStyle(
+                            color: Colors.indigoAccent,
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.bold),
+                      )),
                   SizedBox(
                     height: 50.0,
                     width: 50.0,
                   ),
-                  Text(
-                    'Using only three of their five fingers, the women create beautiful patterns that revolve around various themes. These motifs and designs are inspired by the religious beliefs of the community. One common motif used is the feet of Goddess Lakshmi, the Hindu Goddess of wealth and prosperity. Natural elements like flowers, creepers, fish and birds are also a part of the designs. Religious motifs like conch shell, mandap and kalash are also prominently seen.',
-                    style: TextStyle(
-                        color: Colors.indigoAccent,
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.bold),
-                  ),
+                  Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        'The Jageshwar group of Temples have a unique architectural style that dates back to the 9th century CE. It is customary for pilgrims on the Kailash Mansarovar route to pray at this temple before they proceed with their journey ahead.',
+                        style: TextStyle(
+                            color: Colors.indigoAccent,
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.bold),
+                      )),
                   SizedBox(
                     height: 50.0,
                     width: 50.0,
                   ),
-                  Text(
-                    'Today, the Aipan is being reinvented. It is seen not only on doors and walls; it is also being included in pieces of clothing and other items of daily use.',
-                    style: TextStyle(
-                        color: Colors.indigoAccent,
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.bold),
-                  ),
+                  Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        'Another popular destination is the Baleshwar temple at Champawat. This temple is an extraordinary example of atone architecture and temple design.',
+                        style: TextStyle(
+                            color: Colors.indigoAccent,
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.bold),
+                      )),
                   SizedBox(
                     height: 50.0,
                     width: 50.0,

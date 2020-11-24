@@ -66,7 +66,7 @@ class Aipans extends StatelessWidget {
                     width: 50.0,
                   ),
                   Text(
-                    'Drawn using red mud or ‘geru’ and the designs are made using rice flour which is white in colour. The creation of an Aipan begins and ends with a dot; the dot symbolizing the center of the universe. All lines and patterns emerge from this single dot and this represents the shifting form of the universe.',
+                    'Drawn using red mud or ‘geru’, the designs are made using rice flour which is white in colour. The creation of an Aipan begins and ends with a dot; the dot symbolizing the center of the universe. All lines and patterns emerge from this single dot and this represents the shifting form of the universe.',
                     style: TextStyle(
                         color: Colors.indigoAccent,
                         fontSize: 18.0,

@@ -49,11 +49,11 @@ class _NavBarState extends State<NavBar> {
           BottomNavigationBarItem(
               backgroundColor: Colors.indigo,
               icon: Icon(Icons.book),
-              title: Text("Literature")),
+              title: Text("Religion")),
           BottomNavigationBarItem(
               backgroundColor: Colors.indigo,
-              icon: Icon(Icons.map_sharp),
-              title: Text('Maps')),
+              icon: Icon(Icons.train),
+              title: Text('Tourism')),
         ],
         onTap: (index) {
           setState(() {

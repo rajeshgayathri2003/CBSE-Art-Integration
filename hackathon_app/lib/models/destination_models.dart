@@ -48,7 +48,8 @@ List<Destination> destinations = [
     imageUrl: 'assets/almora.jpg',
     city: 'Almora',
     country: 'Almora',
-    description: 'Fairy tale hamlets, picturesque views and divine temples',
+    description:
+        'Fairy tale hamlets, picturesque views and divine temples. Amazing Almora!',
     activities: activities,
   ),
   Destination(
@@ -56,7 +57,7 @@ List<Destination> destinations = [
     city: 'Valley of\n Flowers',
     country: 'Nanda Devi',
     description:
-        'Visit this UNESCO World Heritage Site and experience the best of nature ',
+        'Visit this UNESCO World Heritage Site and experience the best of nature!',
     activities: activities,
   ),
   Destination(
@@ -64,7 +65,7 @@ List<Destination> destinations = [
     city: 'Jim Corbett \nNational Park',
     country: 'Nainital',
     description:
-        'Visit the Jim Corbett National and witness wildlife in action.',
+        'Visit the Jim Corbett National and witness wildlife in action!',
     activities: activities,
   ),
   Destination(
@@ -72,7 +73,7 @@ List<Destination> destinations = [
     city: 'Haridwar',
     country: 'Haridwar',
     description:
-        'The epitome of Indian culture. Witness the Kumbh Mela in action!',
+        'The epitome of Indian culture. Witness the Kumbh Mela come to life!',
     activities: activities,
   ),
   Destination(
@@ -87,7 +88,8 @@ List<Destination> destinations = [
     imageUrl: 'assets/nainital.jpg',
     city: 'Nainital',
     country: 'Nainital',
-    description: 'Visit the beautiful hill station of India',
+    description:
+        'Visit the most beautiful hill station of India - the iconic Nainital!',
     activities: activities,
   ),
 ];

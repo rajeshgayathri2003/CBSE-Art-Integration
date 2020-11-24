@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 
 class ImageSlider extends StatefulWidget {
   @override
@@ -91,6 +90,10 @@ class _ImageSliderState extends State<ImageSlider> {
               ),
               Column(
                 children: <Widget>[
+                  SizedBox(
+                    height: 30.0,
+                    width: 30.0,
+                  ),
                   Text(
                     'Uttarakhand is a beautiful state that is located in the lap of the Himalayas. Aptly described as the ‘Land of the Gods’, Uttarakhand is sure to leave travelers spell bound with its towering mountains, scenic landscapes, breath-taking valleys, crystal clear lakes and rich cultural diversity. It wouldn’t be wrong to say that Uttarakhand is the embodiment of the Indian spirit.',
                     style: TextStyle(
@@ -104,7 +107,7 @@ class _ImageSliderState extends State<ImageSlider> {
                     height: 30.0,
                   ),
                   Text(
-                    'Uttarakhand offers a wide variety of tourist attractions. From adventure sports to wildlife safaris, from religious and spiritual tourism to monuments that talk about the history of the land, the list is endless. This puts Uttarakhand on the top of everyone’s travel plan.',
+                    'The state offers a wide variety of tourist attractions. From adventure sports to wildlife safaris, from religious and spiritual tourism to monuments that talk about the history of the land, the list is endless. This puts it at the top of everyone’s travel plan.',
                     style: TextStyle(
                       color: Colors.indigo,
                       fontSize: 20.0,
@@ -128,7 +131,7 @@ class _ImageSliderState extends State<ImageSlider> {
                     height: 30.0,
                   ),
                   Text(
-                    'The ‘Ramman’ festival celebrated in this Himalayan state has also been featured in the Representative List of the Intangible Cultural Heritage of Humanity. The Kumbh Mela attracts more than a million visitors.',
+                    'The ‘Ramman’ festival celebrated in this Himalayan state has also been featured in the Representative List of the Intangible Cultural Heritage of Humanity. The Kumbh Mela attracts more than a million visitors every twelfth year.',
                     style: TextStyle(
                       color: Colors.indigo,
                       fontSize: 20.0,
